@@ -117,3 +117,9 @@ nav .create {
   color: var(--color-primary);
 }
 /* Nav End Here */
+main {
+  position: relative;
+  top: 5.6rem;
+}
+
+/* Side Bar */
