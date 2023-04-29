@@ -22,13 +22,19 @@ const SideBar = () => {
               alt=""
             />
           </div>
-          <p className="text-muted">@gudu</p>
+          <div className="handle">
+            <h4>Abhi</h4>
+            <p className="text-muted">@gudu</p>
+          </div>
         </div>
         <div className="side-bar">
           {sideBarData.map((menudata, index) => {
             return <MenuItem {...menudata} key={index} />;
           })}
         </div>
+        <label for="create-post" class="btn btn-primary">
+          Create Post
+        </label>
       </div>
     </>
   );
