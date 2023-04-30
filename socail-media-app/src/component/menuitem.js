@@ -6,7 +6,7 @@ import { messagePop } from "../data/mockdata.js";
 
 const MenuItem = ({ icon, name, count, msgCount }) => {
   console.log(icon);
-  const [classActive, setClassActive] = useState("");
+  [classActive, setClassActive] = useState("");
 
   console.log("gg", icon, name);
   if (name === "Notification") {
@@ -38,10 +38,11 @@ const MenuItem = ({ icon, name, count, msgCount }) => {
       <a
         onClick={() => {
           setClassActive("active");
+
           console.log(classActive);
         }}
         className={
-          classActive.includes("active") ? "menu-item active " : "menu-item "
+          classActive === "active" ? "menu-item  active  " : "menu-item  "
         }
       >
         <CustomIcon className="icon-menu" name={icon} />
