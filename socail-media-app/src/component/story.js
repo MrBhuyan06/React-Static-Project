@@ -6,7 +6,6 @@ const Story = ({ imgLink, text, bgimg }) => {
         backgroundImage: `url(${bgimg}) `,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        bg,
       }}
     >
       <div class="profile-picture">

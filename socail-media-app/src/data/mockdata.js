@@ -148,3 +148,47 @@ export const feedData = [
       "https://media.licdn.com/dms/image/C4E03AQGmCWo7X7mHjA/profile-displayphoto-shrink_400_400/0/1644122702759?e=1688601600&v=beta&t=RxDm-ypG2QgOdg7fJBHBX3NNflPpiN1Mj-1TaAUgK6w",
   },
 ];
+
+export const messageData = [
+  {
+    imgLink:
+      "https://media.licdn.com/dms/image/D5603AQH8t5zWTRKb-Q/profile-displayphoto-shrink_400_400/0/1663474153122?e=1687996800&v=beta&t=WtQly2OPTJhQFZeZSkLaEh60GKMVaoosmN0ptuaia3Y",
+    name: "Smriti",
+    message: "Hello",
+  },
+  {
+    imgLink:
+      "https://media.licdn.com/dms/image/D4D03AQHj7WFuiJrm5g/profile-displayphoto-shrink_400_400/0/1674722426956?e=1687996800&v=beta&t=nmYiYSoFlFRyK2nIluUEOd3sCcmhoRVdUcRB7wMNeLQ",
+    name: "Satabdi",
+    message: "Hello",
+  },
+
+  {
+    imgLink:
+      "https://media.licdn.com/dms/image/D5635AQH473ZMbf7m2g/profile-framedphoto-shrink_400_400/0/1644051465665?e=1683392400&v=beta&t=YdIbrnUt_wWo0qgm7KXAfK81TsMb2gVHCfeD3uq-ZD8",
+    name: "Subham",
+    message: "Yes!!",
+  },
+];
+
+export const requestData = [
+  {
+    imgLink:
+      "https://media.licdn.com/dms/image/C4E03AQGmCWo7X7mHjA/profile-displayphoto-shrink_400_400/0/1644122702759?e=1688601600&v=beta&t=RxDm-ypG2QgOdg7fJBHBX3NNflPpiN1Mj-1TaAUgK6w",
+    name: "Abhi",
+    message: "8 mutal friends",
+  },
+
+  {
+    imgLink:
+      "https://media.licdn.com/dms/image/D4D03AQEo2olRbOMSwA/profile-displayphoto-shrink_400_400/0/1670519700369?e=1688601600&v=beta&t=RlgVzQbg7z6KHJZfWEjDKqcwlcOFJdEO6CLd9nsuiKs",
+    name: "Babu",
+    message: "8 mutal friends",
+  },
+  {
+    imgLink:
+      " https://media.licdn.com/dms/image/D4D35AQFCL-IpEcHslQ/profile-framedphoto-shrink_400_400/0/1680030339952?e=1683568800&v=beta&t=sCpPObpazSQIb81K1kMmQWV2gqXIGGhuQ4o9JkVBPrM",
+    name: "Subham",
+    message: "8 mutal friends",
+  },
+];
